@@ -50,43 +50,43 @@
     <input name="updateButton"
            type="button"
            value="2006"
-           onclick="updateData(2006)" />
+           onclick="renderYear(2006)" />
   </div>
   <div class="option">
     <input name="updateButton"
            type="button"
            value="2007"
-           onclick="updateData(2007)" />
+           onclick="renderYear(2007)" />
   </div>
   <div class="option">
     <input name="updateButton"
            type="button"
            value="2008"
-           onclick="updateData(2008)" />
+           onclick="renderYear(2008)" />
   </div>
   <div class="option">
     <input name="updateButton"
            type="button"
            value="2009"
-           onclick="updateData(2009)" />
+           onclick="renderYear(2009)" />
   </div>
   <div class="option">
     <input name="updateButton"
            type="button"
            value="2010"
-           onclick="updateData(2010)" />
+           onclick="renderYear(2010)" />
   </div>
   <div class="option">
     <input name="updateButton"
            type="button"
            value="2011"
-           onclick="updateData(2011)" />
+           onclick="renderYear(2011)" />
   </div>
   <div class="option">
     <input name="updateButton"
            type="button"
            value="2012"
-           onclick="updateData(2012)" />
+           onclick="renderYear(2012)" />
   </div>
 
 
@@ -125,13 +125,15 @@
 
   var renderYear = function(year) {
     year = year || 2006;
+    rateByIdUp = d3.map();
+    rateByIdDown = d3.map();
     console.log(year);
     queue()
       //.defer(d3.json, "http://bl.ocks.org/mbostock/raw/4090846/us.json")
       .defer(d3.json, "us.json")
-      .defer(d3.csv, "up.csv", function(d) {
+      .defer(d3.csv, "up" + year + ".csv", function(d) {
         rateByIdUp.set(d.id, +d.rate); })
-      .defer(d3.csv, "down.csv", function(d) {
+      .defer(d3.csv, "down" + year + ".csv", function(d) {
         rateByIdDown.set(d.id, +d.rate); })
       .await(ready);
   }
