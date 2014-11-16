@@ -72,7 +72,7 @@
       across the school districts of North Carolina.
    </p>
 
-
+  <!-- <div style="height:100px;"> -->
    <svg width="960" height="100">
      <circle cx="20" cy="25" r="10" fill="orange"></circle>
      <text x="35" y="32.5" font-family="Source Sans Pro" font-size="18px" fill="black"> The orange scale signifies the upper socio-economic portion of North Carolina's counties.
@@ -81,6 +81,7 @@
      <text x="35" y="62.5" font-family="Source Sans Pro" font-size="18px" fill="black"> The blue scale signifies the lower socio-economic portion of North Carolina's counties.
      </text>
    </svg>
+ <!-- </div> -->
 
 <div id="buttonHolder" style="width: 100%">
  <div id="firstbutton" class="option">
@@ -161,7 +162,7 @@
       }));
 
   var quantizeDown = d3.scale.quantize()
-      .domain([-7, .12])
+      .domain([0, .15])
       .range(d3.range(0,9).map(function(i) {
         var something = "q" + i + "-9";
         return something;
@@ -185,7 +186,7 @@
     queue()
       //.defer(d3.json, "http://bl.ocks.org/mbostock/raw/4090846/us.json")
       .defer(d3.json, "us.json")
-      .defer(d3.csv, year + "-poor-bydistrict-fips.csv", function(d) {
+      .defer(d3.csv, year + "-rich-bydistrict-fips.csv", function(d) {
         var id = "37";
         if (d.id.length == 2) {
           id += "0";
@@ -194,7 +195,7 @@
         }
         rateByIdUp.set(id+d.id, +d.rate);
       })
-      .defer(d3.csv, year + "-rich-bydistrict-fips.csv", function(d) {
+      .defer(d3.csv, year + "-poor-bydistrict-fips.csv", function(d) {
         var id = "37";
         if (d.id.length == 2) {
           id += "0";
