@@ -1,3 +1,5 @@
+#!/bin/python
+
 for year in range(2004, 2014):
 
     i = open('Ranking_no_CN' + str(year) + '.txt', 'r')
