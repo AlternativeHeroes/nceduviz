@@ -1,0 +1,648 @@
+,School System & School,# Tested,% Tested,Math Score,CR Score1,Writing Score3,M+CR2,M+CR+W3
+                   , United States (All Students) ,1664479,52,514,496,488,1010,1498
+  , North Carolina (All Students) ,63271,68,506,491,472,997,1469
+, NC School of Science & Math ,310,NA,691,662,642,1353,1995
+, NC School of The Arts ,100,NA,563,586,561,1149,1710
+10, Alamance-Burlington ,858,65.1,495,472,448,967,1415
+303, Alamance-Burlington Mid Colleg ,16,39,466,459,428,925,1353
+324, Eastern Alamance High ,140,65.7,519,498,466,1017,1483
+348, Graham High ,81,57.9,434,438,420,872,1292
+360, Hugh M Cummings High ,95,59,437,397,384,834,1218
+388, Southern Alamance High ,157,56.7,510,478,453,988,1441
+396, Walter M Williams High ,190,73.1,506,481,461,987,1448
+400, Western Alamance High ,179,81,510,492,465,1002,1467
+01B , River Mill Academy ,34,94.4,519,509,492,1028,1520
+01C , Clover Garden ,23,100,533,490,465,1023,1488
+01D , The Hawbridge School ,10,62.5,505,569,537,1074,1611
+20, Alexander County Schools ,148,38.5,513,479,456,992,1448
+302, Alexander Central High ,148,38.5,513,479,456,992,1448
+30, Alleghany County Schools ,44,48.9,510,469,440,979,1419
+304, Alleghany High ,44,48.9,510,469,440,979,1419
+40, Anson County Schools ,152,48.7,433,430,406,863,1269
+304, Anson Early College High ,40,54.1,471,475,454,946,1400
+306, Anson High ,84,46.2,408,403,379,811,1190
+700, Anson New Technology School ,28,93.3,455,444,418,899,1317
+50, Ashe County Schools ,117,65.4,531,494,481,1025,1506
+302, Ashe County High ,117,65.4,531,494,481,1025,1506
+60, Avery County Schools ,72,45.6,504,495,477,999,1476
+302, Avery County High ,62,72.9,501,496,473,997,1470
+700, Avery High Stem ,10,13.7,524,489,505,1013,1518
+06B , Crossnore Academy ,1,20, * , * , * , * , * 
+70, Beaufort County Schools ,177,47.6,461,443,422,904,1326
+311, Beaufourt County Early College ,7,24.1,503,467,450,970,1420
+330, Northside High ,42,50.6,498,465,433,963,1396
+339, Southside High ,37,51.4,412,392,378,804,1182
+342, Washington High ,89,54.9,464,454,434,918,1352
+80, Bertie County Schools ,137,70.6,421,383,379,804,1183
+311, Bertie Early College High ,12,92.3,460,424,418,884,1302
+312, Bertie High ,90,68.7,414,372,364,786,1150
+700, Bertie Stem High ,35,70,427,397,403,824,1227
+90, Bladen County Schools ,153,51.2,452,436,411,888,1299
+330, East Bladen High ,71,51.4,448,439,414,887,1301
+368, West Bladen High ,82,50.9,455,434,408,889,1297
+100, Brunswick County Schools ,375,46.1,497,480,462,977,1439
+307, Brunswick County Early College ,42,53.2,550,528,511,1078,1589
+326, North Brunswick High ,89,43.4,469,443,424,912,1336
+334, South Brunswick High ,124,48.8,511,488,474,999,1473
+348, West Brunswick High ,120,45.8,484,481,460,965,1425
+110, Buncombe County Schools ,925,57.6,533,516,489,1049,1538
+303,Community High,5,13.9,352,366,306,718,1024
+304, A C Reynolds High ,177,61.7,545,538,506,1083,1589
+322, Buncombe County Early College ,18,26.5,537,549,507,1086,1593
+336, Charles D Owen High ,103,57.9,534,522,493,1056,1549
+340, Clyde A Erwin High ,108,49.3,513,485,461,998,1459
+352, Enka High ,119,50.9,499,495,464,994,1458
+380, North Buncombe High ,148,67.9,545,514,479,1059,1538
+416, T C Roberson High ,239,72.6,549,526,510,1075,1585
+111, Asheville City Schools ,192,76.8,537,540,509,1077,1586
+302, Asheville High ,159,76.1,525,528,494,1053,1547
+700, Asheville High Of Inq & Life S ,33,80.5,594,600,581,1194,1775
+120, Burke County Schools ,466,49.8,516,486,468,1002,1470
+310, Burke Middle College ,40,69,511,488,486,999,1485
+314, East Burke High ,97,47.1,515,482,450,997,1447
+318, Freedom High ,122,56.7,503,485,458,988,1446
+346, Jimmy C. Draughn High ,89,53,506,468,461,974,1435
+370, Robert L. Patton High ,118,59,541,503,491,1044,1535
+130, Cabarrus County Schools ,1188,65.9,524,499,479,1023,1502
+307, Cox Mill High School ,185,75.8,522,492,473,1014,1487
+310, Central Cabarrus High ,135,59.7,504,494,464,998,1462
+314, Concord High ,112,52.3,512,506,474,1018,1492
+316, Jay M Robinson High ,239,71.8,535,510,489,1045,1534
+324, Mount Pleasant High ,131,58.7,502,476,455,978,1433
+326, N W Cabarrus High ,138,63,542,509,486,1051,1537
+332, Hickory Ridge High ,231,80.5,535,501,495,1036,1531
+333, Cabarrus County Performance Le ,16,39,494,464,456,958,1414
+350, Cabarrus-Kannapolis Early Col ,1, NA , * , * , * , * , * 
+132, Kannapolis City Schools ,141,53.2,469,454,427,923,1350
+304, A L Brown High ,141,53.2,469,454,427,923,1350
+140, Caldwell County Schools ,471,54.6,501,480,454,981,1435
+305, Caldwell Career Center Middle ,18,40,488,483,443,971,1414
+309, Caldwell Early College ,86,62.3,529,522,493,1051,1544
+348, Hibriten High ,101,53.2,505,484,466,989,1455
+386, South Caldwell High ,172,51.8,505,480,452,985,1437
+390, West Caldwell High ,94,59.9,464,438,411,902,1313
+150, Camden County Schools ,90,72.6,506,493,469,999,1468
+304, Camden County High ,66,73.3,508,493,465,1001,1466
+700, Cam Tech High ,24,70.6,501,493,481,994,1475
+160, Carteret County Public Schools,335,64.3,532,514,492,1046,1538
+313, East Carteret High ,59,62.1,511,491,468,1002,1470
+314, Croatan High ,134,73.2,546,526,509,1072,1581
+344, West Carteret High ,142,58.4,527,512,485,1039,1524
+170, Caswell County Schools ,99,58.6,462,445,436,907,1343
+316, Bartlett Yancey High ,99,58.6,462,445,436,907,1343
+180, Catawba County Schools ,640,56.6,519,490,465,1009,1474
+308, Bandys High ,111,53.4,525,492,471,1017,1488
+320, Bunker Hill High ,79,40.7,478,446,429,924,1353
+323, Catawba Rosenwald Ed Cntr ,,,,,,,
+325, Catawba Valley Early Coll Hi ,71,74.7,516,515,486,1031,1517
+340, Fred T Foard High ,127,54.3,538,508,481,1046,1527
+348, Maiden High ,92,58.2,513,476,449,989,1438
+376, Saint Stephens High ,160,66.9,523,495,466,1018,1484
+181, Hickory City Schools ,164,65.6,519,491,479,1010,1489
+318, Catawba Valley High ,6,35.3,458,437,410,895,1305
+322, Hickory High ,158,67.8,521,493,482,1014,1496
+182, Newton Conover City ,130,60.2,498,474,455,972,1427
+316, Newton-Conover High ,90,58.4,502,470,451,972,1423
+700, Newton-Conover Health/Sci ,40,90.9,488,482,464,970,1434
+190, Chatham County Schools ,346,70.6,495,483,466,978,1444
+316, Chatham Central High ,59,59.6,502,452,452,954,1406
+336, Jordan Matthews High ,97,67.8,455,448,428,903,1331
+342, Northwood High ,190,82.3,514,511,489,1025,1514
+19B , Woods Charter ,48,100,554,573,546,1127,1673
+200, Cherokee County Schools ,131,58.2,507,491,466,998,1464
+308, Andrews High ,44,62,496,476,448,972,1420
+314, Hiwassee Dam High ,21,50,546,519,476,1065,1541
+328, Murphy High ,52,65,488,483,467,971,1438
+350, Tri-County Early College High ,14,63.6,550,529,501,1079,1580
+210, Edenton-Chowan Schools ,103,68.7,487,463,452,950,1402
+312, John A Holmes High ,103,68.7,487,463,452,950,1402
+220, Clay County Schools ,49,65.3,527,514,485,1041,1526
+310, Hayesville High ,49,65.3,527,514,485,1041,1526
+230, Cleveland County Schools ,554,54.5,500,478,446,978,1424
+312, Burns High ,132,62.3,478,461,428,939,1367
+322, Cleveland Early College ,26,63.4,501,527,487,1028,1515
+324, Crest Senior High ,133,53.8,508,479,447,987,1434
+330, Turning Point Academy ,,   ,   ,   ,   ,   ,   
+350, Kings Mountain High ,138,46.9,528,490,460,1018,1478
+361, Shelby High ,125,67.9,483,470,441,953,1394
+240, Columbus County Schools ,185,48.6,455,437,428,892,1320
+334, East Columbus High ,44,50.6,437,422,408,859,1267
+371, South Columbus High ,57,39.9,480,446,436,926,1362
+373, Southeastern Early College ,38,63.3,478,464,457,942,1399
+380, West Columbus High ,46,51.1,421,417,412,838,1250
+241, Whiteville City Schools ,73,58.9,455,431,419,886,1305
+316, Whiteville High ,73,61.9,455,431,419,886,1305
+250, Craven County Schools ,423,40.9,500,485,448,985,1433
+314, Craven Early College High ,31,36.9,484,506,473,990,1463
+321, Early College East High ,,   ,   ,   ,   ,   ,   
+340, Havelock High ,120,41.5,511,494,458,1005,1463
+356, New Bern High ,187,47.5,506,489,454,995,1449
+372, West Craven High ,85,32,479,454,410,933,1343
+260, Cumberland County Schools ,1839,56.2,473,467,443,940,1383
+318, Jack Britt High ,250,67.2,525,507,486,1032,1518
+322, Douglas Byrd High ,125,49.8,426,414,387,840,1227
+325, Cape Fear High ,138,46.8,491,481,462,972,1434
+354, Cross Creek Early College ,42,80.8,507,493,453,1000,1453
+357, Gray's Creek High ,131,46.3,478,475,438,953,1391
+359, E E Smith High ,116,53.5,424,414,389,838,1227
+374, Fuller Performance Learning Ce ,1,1.7, * , * , * , * , * 
+388, Massey Hill Classic Sch ,71,87.7,470,501,464,971,1435
+408, Pine Forest High ,186,61.6,462,454,425,916,1341
+411, Reid Ross Classical School ,50,84.7,442,450,432,892,1324
+424, Seventy-First High ,140,40.7,446,451,430,897,1327
+427, South View High ,216,57.3,469,466,441,935,1376
+446, Terry Sanford High ,218,75.7,513,507,485,1020,1505
+455, Westover High ,120,54.5,416,417,400,833,1233
+700, Howard Health ,35,85.4,466,472,447,938,1385
+270, Currituck County Schools ,189,69.2,502,488,450,990,1440
+306, Currituck County High ,135,66.8,500,483,443,983,1426
+311, The Jp Knapp Early College ,54,76.1,506,501,468,1007,1475
+280, Dare County Schools ,239,86.6,522,489,470,1011,1481
+304, Cape Hatteras Secondary ,25,67.6,513,473,468,986,1454
+316, Manteo High ,68,84,518,470,446,988,1434
+330, First Flight High ,146,95.4,525,501,481,1026,1507
+290, Davidson County Schools ,656,55.4,516,497,473,1013,1486
+308, Central Davidson High ,103,51.5,501,478,454,979,1433
+314, Davidson Co Ext Day ,,   ,   ,   ,   ,   ,   
+315, Davidson Early College ,16,100,554,533,484,1087,1571
+324, East Davidson High ,79,47.6,504,495,469,999,1468
+336, Ledford Senior High ,150,62,510,502,479,1012,1491
+348, North Davidson Sr High ,182,62.1,529,501,479,1030,1509
+365, South Davidson High ,36,41.4,530,496,494,1026,1520
+388, West Davidson High ,89,60.1,517,497,466,1014,1480
+291, Lexington City Schools ,110,57.6,441,417,399,858,1257
+336, Lexington Sr High ,110,59.5,441,417,399,858,1257
+292, Thomasville City Schools ,109,81.3,433,405,387,838,1225
+324, Thomasville High ,109,81.3,433,405,387,838,1225
+300, Davie County Schools ,235,61.8,531,510,487,1041,1528
+312, Davie High ,200,59.2,532,508,486,1040,1526
+314, Davie County Early College Hig ,35,87.5,522,523,495,1045,1540
+310, Duplin County Schools ,265,49,461,440,424,901,1325
+338, Duplin Early College High ,1,3.6, * , * , * , * , * 
+344, East Duplin High ,83,43.7,480,451,437,931,1368
+352, James Kenan High ,51,39.2,426,399,379,825,1204
+364, North Duplin Jr Sr ,44,57.1,477,452,436,929,1365
+392, Wallace-Rose Hill High ,62,53.4,461,439,429,900,1329
+320, Durham Public Schools ,1531,72.5,477,474,448,951,1399
+309, Josephine Dobbs Clement Early ,80,95.2,474,464,457,938,1395
+312, C E Jordan High ,299,78.9,538,530,502,1068,1570
+317, City Of Medicine Academy ,53,79.1,419,445,432,864,1296
+322, Durham's Performance Learning ,13,39.4,415,419,389,834,1223
+323, Durham School Of Arts ,147,87,535,539,514,1074,1588
+325, Hillside High ,155,61.8,415,414,386,829,1215
+353, Middle College High @dtcc ,38,70.4,535,555,515,1090,1605
+356, Northern High ,235,75.3,456,455,423,911,1334
+365, Riverside High ,272,69.6,495,491,466,986,1452
+368, Southern High ,142,58.2,396,395,371,791,1162
+700, Souther School Of Engineering ,32,71.1,431,405,382,836,1218
+701, Hillside New Tech High ,65,84.4,438,426,394,864,1258
+32D , Kestrel Heights School ,28,59.6,482,482,469,964,1433
+32L , Voyager Academy ,,   ,   ,   ,   ,   ,   
+330, Edgecombe County Public Schools ,198,44.9,442,434,423,876,1299
+326, Edgecombe Early College High ,32,76.2,480,486,462,966,1428
+328, North Edgecombe High ,29,34.5,419,376,365,795,1160
+350, Southwest Edgecombe ,66,41.5,453,434,423,887,1310
+358, Tarboro High ,71,45.8,425,433,428,858,1286
+340, Forsyth County Schools4 ,2158,63.8,511,495,473,1006,1479
+311, Atkins Academics & Technology ,1,1.3, * , * , * , * , * 
+330, Carver High ,60,39.5,407,393,374,800,1174
+332, Career Center ,5,NA,576,590,598,1166,1764
+362, Earlycollege At Forsyth ,42,84,529,544,518,1073,1591
+364, East Forsyth High ,297,67,517,501,469,1018,1487
+382, R B Glenn High ,171,51.8,494,455,436,949,1385
+446, Middle College Forsyth ,6,15,505,443,465,948,1413
+454, Mount Tabor High ,322,80.3,541,518,494,1059,1553
+460, North Forsyth High ,145,58.7,446,461,434,907,1341
+486, Parkland High ,143,47,464,457,435,921,1356
+488, Jf Kennedy High ,,   ,   ,   ,   ,   ,   
+495, Reagan High ,266,76.2,548,528,511,1076,1587
+496, Reynolds High ,244,66.5,504,503,484,1007,1491
+542, Walkertown High ,,   ,   ,   ,   ,   ,   
+556, West Forsyth High ,350,76.6,550,526,504,1076,1580
+568, Winston-Salem Prep Academy ,42,89.4,427,386,391,813,1204
+703, Jacket Academy At Carver ,24,75,399,378,367,777,1144
+34B , Quality Education Academy ,23,100,447,410,390,857,1247
+34D , Carter G Woodson School ,3,75, * , * , * , * , * 
+350, Franklin County Schools ,251,48.1,490,469,447,959,1406
+308, Bunn High ,78,46.4,516,491,469,1007,1476
+317, Franklin County Early College ,,   ,   ,   ,   ,   ,   
+321, Franklinton High ,125,61.3,472,460,437,932,1369
+336, Louisburg High ,48,32,494,455,438,949,1387
+360, Gaston County Schools ,1166,60.6,494,483,452,977,1429
+310, Ashbrook High ,193,64.3,485,475,450,960,1410
+336, Bessemer City High ,51,64.6,466,463,438,929,1367
+337, Gaston Early College High ,,   ,   ,   ,   ,   ,   
+360, Cherryville Sr High ,56,48.3,473,461,422,934,1356
+390, East Gaston High ,154,55.6,493,465,438,958,1396
+396, Forestview High ,209,77.1,501,497,462,998,1460
+418, Highland School Of Technology ,126,94.7,537,514,474,1051,1525
+428, Hunter Huss High ,80,43,453,447,417,900,1317
+470, North Gaston High ,83,41.7,481,473,439,954,1393
+494, South Point High ,214,75.1,503,498,469,1001,1470
+36B , Piedmont Community Charter ,28,77.8,485,499,455,984,1439
+370, Gates County Schools ,51,39.2,478,447,424,925,1349
+312, Gates County Sr High ,51,39.2,478,447,424,925,1349
+380, Graham County Schools ,46,73,480,469,468,949,1417
+308, Robbinsville High ,46,73,480,469,468,949,1417
+390, Granville County Schools,275,51.3,492,479,455,971,1426
+322, Granville Central High ,60,42,483,483,445,966,1411
+323, Granville Early College High ,1, NA , * , * , * , * , * 
+324, J F Webb High ,75,49.3,497,484,463,981,1444
+700, J F Webb High Of Health Sci ,31,56.4,500,472,473,972,1445
+704, South Granville Hi Of Heal Sci ,46,62.2,490,463,445,953,1398
+705, South Granville High Of Busine ,62,55.9,494,485,453,979,1432
+400, Greene County Schools ,79,36.7,443,438,413,881,1294
+308, Greene Central High ,62,37.6,447,440,411,887,1298
+315, Greene Early College High ,17,34,428,430,422,858,1280
+410, Guilford County Schools ,3404,73.2,488,476,460,964,1424
+319, T Wingate Andrews High ,123,76.9,393,372,359,765,1124
+326, Middle College High At Bennet ,31,96.9,385,391,382,776,1158
+355, Dudley High ,194,60.8,409,401,385,810,1195
+358, Eastern Guilford High ,142,60.9,440,428,414,868,1282
+390, Gc Middle College High ,54,98.2,479,476,464,955,1419
+391, Penn-Griffin School For The Ar ,26,100,538,534,516,1072,1588
+394, Grimsley High ,303,82.6,545,532,511,1077,1588
+395, Early College At Guilford ,56,100,706,671,674,1377,2051
+399, Gtcc East Middle College High ,31,83.8,491,491,461,982,1443
+401, Gtcc Middle College High ,21,51.2,474,478,456,952,1408
+406, High Point Central High ,163,61.5,463,446,440,909,1349
+407, The Academy At High Point Cent ,34,100,420,380,362,800,1162
+408, High Point Gtcc Mid Coll High ,27,71.1,439,472,444,911,1355
+483, Middle College High At Nc A&t ,23,100,410,373,356,783,1139
+484, Northeast High ,132,63.5,441,440,421,881,1302
+489, Northern Guilford High ,222,85.4,535,526,507,1061,1568
+490, Northwest High ,356,80.5,547,536,522,1083,1605
+508, Walter Hines Page High ,272,72.7,503,490,476,993,1469
+529, Lucy Ragsdale High ,208,80.9,489,469,457,958,1415
+544, Ben L Smith High ,122,51.5,412,390,369,802,1171
+545, Smith Academy ,65,100,430,413,395,843,1238
+547, Southeast High ,184,70.5,483,481,453,964,1417
+556, Southern High ,127,66.1,458,449,431,907,1338
+562, Southwest High ,232,76.8,494,473,462,967,1429
+589, P J Weaver Ed Center ,66,98.5,531,549,521,1080,1601
+595, Western High ,190,71.4,498,475,466,973,1439
+41F , Triad Math and Science Academy ,,   ,   ,   ,   ,   ,   
+420, Halifax County Schools ,138,49.8,410,384,376,794,1170
+346, Northwest High ,89,58.2,420,387,383,807,1190
+358, Southeast Halifax High ,49,39.5,392,379,362,771,1133
+421, Roanoke Rapids City ,120,68.2,457,465,451,922,1373
+316, Roanoke Rapids High ,120,68.2,457,465,451,922,1373
+422, Weldon City Schools ,46,63.9,385,373,352,758,1110
+310, Roanoke Valley Early College ,,   ,   ,   ,   ,   ,   
+700,Weldon Stem,46,63.9,385,373,352,758,1110
+430, Harnett County Schools ,530,50.8,476,474,447,950,1397
+346, Harnett Central High ,158,55.2,482,482,452,964,1416
+371, Overhills High ,144,49.7,462,480,453,942,1395
+378, Triton High ,117,49.4,476,463,434,939,1373
+384, Western Harnett High ,111,50.5,484,466,446,950,1396
+440, Haywood County Schools ,235,47.6,505,480,461,985,1446
+346, Haywood Early College ,10,29.4,533,509,484,1042,1526
+378, Pisgah High ,113,50,486,472,452,958,1410
+390, Tuscola High ,111,54.7,521,485,468,1006,1474
+450, Henderson County Schools ,460,55.6,529,513,488,1042,1530
+316, East Henderson High ,99,50,529,496,478,1025,1503
+334, Hendersonville High ,110,70.5,534,530,503,1064,1567
+341, North Henderson High ,114,51.4,518,496,470,1014,1484
+352, West Henderson High ,131,61.8,536,527,499,1063,1562
+354, Henderson Co Early College Hig ,6,24,527,508,480,1035,1515
+460, Hertford County Schools ,130,61.6,391,387,380,778,1158
+320, Hertford County High ,95,60.5,395,386,374,781,1155
+322, Hertford County Early College ,35,85.4,381,390,396,771,1167
+340, Cs Brown Student Development C ,,   ,   ,   ,   ,   ,   
+470, Hoke County Schools ,207,50.7,444,442,420,886,1306
+312, Hoke County High ,176,53.8,436,433,411,869,1280
+443, Sandhoke Early College High ,31,44.3,489,494,468,983,1451
+480, Hyde County Schools ,25,52.1,493,460,439,953,1392
+316, Ocracoke ,7,100,537,531,500,1068,1568
+318, Hyde County Early College High ,17,41.5,474,430,412,904,1316
+490, Iredell-Statesville ,839,58,528,507,484,1035,1519
+320, Collab Col Of Tech & Leadershi ,34,45.9,544,571,538,1115,1653
+335, Lake Norman High ,398,86,556,527,504,1083,1587
+346, North Iredell High ,90,40.9,521,493,464,1014,1478
+354, Statesville High ,127,49.4,493,476,462,969,1431
+355, Iredell-Statesville Visual & P ,11,39.3,466,487,457,953,1410
+362, South Iredell High ,99,52.7,492,474,450,966,1416
+380, West Iredell High ,80,42.8,502,484,463,986,1449
+491, Mooresville Graded School ,245,68.1,501,476,455,977,1432
+312, Mooresville Sr High ,245,68.1,501,476,455,977,1432
+49E , Pine Lake Preparatory,64,100,550,541,521,1091,1612
+500, Jackson County Schools,110,46.4,509,502,483,1011,1494
+302, Blue Ridge Virtual Early Colle ,6,26.1,450,442,413,892,1305
+323, Jackson County Early College ,7,17.5,581,560,549,1141,1690
+324, Jackson Co Sch Of Alt ,,   ,   ,   ,   ,   ,   
+340, Smoky Mountain High ,97,62.2,507,501,482,1008,1490
+510, Johnston County Schools ,939,50.2,512,487,460,999,1459
+324, Clayton High ,267,58.9,522,496,474,1018,1492
+327, Cleveland High ,,   ,   ,   ,   ,   ,   
+333, Corinth Holders High ,,   ,   ,   ,   ,   ,   
+357, Johnston Middle College ,32,42.1,536,520,492,1056,1548
+367, Johnston County Early College ,18,43.9,551,555,507,1106,1613
+368, North Johnston High ,75,48.1,497,453,435,950,1385
+376, Princeton High ,43,43.4,495,496,458,991,1449
+399, Smithfield-Selma High ,118,42.4,471,463,433,934,1367
+402, South Johnston High ,96,37.2,520,487,466,1007,1473
+406, West Johnston High ,290,57.9,518,488,458,1006,1464
+51A , Neuse Charter School ,,   ,   ,   ,   ,   ,   
+520, Jones County Schools ,34,45.3,477,421,406,898,1304
+320, Jones Senior High ,34,45.3,477,421,406,898,1304
+530, Lee County Schools ,313,56.2,493,470,445,963,1408
+335, Lee Early College ,39,48.1,526,527,487,1053,1540
+336, Lee County Sr High ,144,54.5,503,483,457,986,1443
+343, Southern Lee Hgih ,130,65.3,471,438,418,909,1327
+540, Lenoir County Public Schools,244,40.9,476,464,438,940,1378
+315, Kinston High ,92,49.5,434,420,409,854,1263
+317, Lenoir County Early College Hi ,27,44.3,474,462,416,936,1352
+324, North Lenoir High ,77,40.5,509,498,463,1007,1470
+336, South Lenoir High ,48,34,504,496,465,1000,1465
+550, Lincoln County Schools ,515,60.7,508,480,456,988,1444
+320, East Lincoln High ,135,69.2,511,502,464,1013,1477
+332, Lincolnton High ,110,52.4,482,444,428,926,1354
+344, North Lincoln High ,174,75.7,526,494,476,1020,1496
+368, West Lincoln High ,96,46.4,502,466,438,968,1406
+55A , Lincoln Charter Schools ,62,100,531,515,500,1046,1546
+560, Macon County Schools ,210,79.2,502,497,474,999,1473
+320, Franklin High ,102,57,495,481,461,976,1437
+324, Highlands School ,19,55.9,544,501,494,1045,1539
+329, Macon County Early College Hig ,16,50,503,533,488,1036,1524
+332, Nantahala School ,4,100, * , * , * , * , * 
+570, Madison County Schools ,64,41.3,490,489,455,979,1434
+317, Madison Early College High ,7,25,504,574,511,1078,1589
+318, Madison High ,57,44.9,488,479,448,967,1415
+580, Martin County Schools ,112,49.8,472,434,410,906,1316
+344, South Creek High ,54,48.6,471,422,398,893,1291
+368, Riverside High ,58,50.9,473,446,421,919,1340
+58B , Bear Grass Charter School ,,   ,   ,   ,   ,   ,   
+590, Mcdowell County Schools ,207,50.7,496,485,466,981,1447
+328, Mcdowell Early College ,38,76,507,496,468,1003,1471
+330, Mcdowell High ,169,47.2,494,483,466,977,1443
+600, Charlotte-Mecklenburg Schools,5531,67.5,503,487,473,990,1463
+302, Ardrey Kell High ,474,87.5,568,538,535,1106,1641
+312, William Amos Hough High ,331,81.3,537,518,507,1055,1562
+334, Cato Middle College High ,93,94.9,541,537,527,1078,1605
+361, David W. Butler High ,305,65.3,528,499,485,1027,1512
+364, Marie G. Davis Military & Globa ,21,91.3,440,422,401,862,1263
+377, East Mecklenburg High ,179,54.6,506,489,468,995,1463
+397,Garinger High,,,,,,,
+386, Hawthorne High/Taps ,21,47.7,403,371,379,774,1153
+405, Harding Univ High ,201,69.3,440,435,421,875,1296
+415, Hopewell High ,255,67.3,473,466,451,939,1390
+426, Independence High ,220,55.4,487,471,451,958,1409
+445, Mallard Creek High ,358,77.3,482,469,459,951,1410
+457, Rocky River High ,217,59.9,449,436,423,885,1308
+466, Myers Park High ,492,78.3,561,550,530,1111,1641
+480, North Mecklenburg High ,212,69.5,503,497,481,1000,1481
+482, Northwest School of the Arts,101,75.4,513,542,514,1055,1569
+496, Phillip O Berry High ,221,78.4,468,452,433,920,1353
+498, Performance Learning Center ,18,22.2,490,514,486,1004,1490
+508, Providence High ,419,89,594,564,550,1158,1708
+535, South Mecklenburg High ,359,71.9,518,504,490,1022,1512
+576, West Charlotte High ,169,53,414,394,386,808,1194
+579, West Mecklenburg High ,218,54.5,423,412,400,835,1235
+592, Zebulon B. Vance High ,220,58.4,431,425,406,856,1262
+693, Renaissance School At Olympic ,46,56.1,469,454,435,923,1358
+694, Olympic High-Math-Eng-Tech Sci ,74,79.6,521,486,449,1007,1456
+695, Int Studies & Global Economics ,47,56.6,467,445,423,912,1335
+696, Int Business & Communication S ,43,51.8,407,391,386,798,1184
+697," Biotechnology, Health & Pub A",68, NA ,481,464,444,945,1389
+60C , Kennedy Charter ,7,25.9,344,351,357,695,1052
+60D , Lake Norman Charter ,177,100,545,532,517,1077,1594
+60G , Queens Grant Community,79,88.8,504,492,475,996,1471
+60H , Crossroads Charter High,13,13.3,386,382,365,768,1133
+60I , Community School Of Davidson ,,   ,   ,   ,   ,   ,   
+610, Mitchell County Schools ,72,59.5,493,478,449,971,1420
+332, Mayland Early College ,,   ,   ,   ,   ,   ,   
+334, Mitchell High ,72,59.5,493,478,449,971,1420
+620, Montgomery County Schools ,129,47.4,467,439,425,906,1331
+316, East Montgomery High ,67,57.3,459,436,430,895,1325
+340, West Montgomery High ,62,48.8,476,442,419,918,1337
+630, Moore County Schools ,504,63.2,508,488,471,996,1467
+332, North Moore High ,59,55.1,508,462,450,970,1420
+336, Pinecrest High ,293,68.1,511,492,477,1003,1480
+360, Union Pines High ,152,59.6,501,491,467,992,1459
+640, Nash-Rocky Mount Schools ,573,51.4,480,455,435,935,1370
+340, Wl Greene Alternative ,,   ,   ,   ,   ,   ,   
+346, Nash Central High ,134,52.3,493,450,433,943,1376
+347, Nrm Early College High ,45,70.3,460,472,458,932,1390
+350, Northern Nash High ,144,51.8,479,453,435,932,1367
+361, Rocky Mount High ,147,56.3,471,455,436,926,1362
+364, Southern Nash Sr High ,103,41.2,487,459,427,946,1373
+64A , Rocky Mount Preparatory ,40,78.4,469,456,440,925,1365
+650, New Hanover County Schools ,1027,64.3,521,503,477,1024,1501
+326, Emsley A Laney High ,209,58.5,504,494,466,998,1464
+327, Eugene Ashley High ,211,61.5,509,500,473,1009,1482
+340, Isaac Bear Middle College High ,33,100,586,565,530,1151,1681
+342, John T Hoggard High ,318,77.6,558,521,502,1079,1581
+352, New Hanover High ,229,65.8,493,481,450,974,1424
+355, Mary S. Mosley Performance Lrn ,2,8.7, * , * , * , * , * 
+394, Wilmington Early College High ,25,46.3,481,480,446,961,1407
+660, Northampton County Schools ,85,59.9,399,386,375,785,1160
+336, Northampton High-East ,44,50.6,418,407,396,825,1221
+66A , Gaston College Preparatory ,65,100,466,455,448,921,1369
+670, Onslow County Schools ,781,63,494,480,454,974,1428
+320, Dixon High ,67,52.3,491,478,459,969,1428
+324, Jacksonville High ,145,83.8,504,484,454,988,1442
+333, Northside High School ,110,61.5,468,475,438,943,1381
+340, Richlands High ,101,50.5,503,486,455,989,1444
+344, Southwest High ,96,67.1,475,443,432,918,1350
+352, Swansboro High ,119,63.3,516,501,467,1017,1484
+364, White Oak High ,143,62.4,494,484,466,978,1444
+680, Orange County Schools ,360,69.6,529,515,498,1044,1542
+310, Cedar Ridge Hs ,161,69.7,548,537,525,1085,1610
+332, Orange Senior High ,199,70.1,514,497,476,1011,1487
+681, Chapel Hill-Carrboro ,729,89.7,605,589,572,1194,1766
+305, Carbaro High School ,150,89.3,598,587,565,1185,1750
+308, Chapel Hill High ,283,87.9,604,581,569,1185,1754
+314, East Chapel Hill High ,295,93.7,610,598,578,1208,1786
+338, Phoenix Academy High ,1,14.3, * , * , * , * , * 
+68N , Pace Academy ,1,2.3, * , * , * , * , * 
+690, Pamlico County Schools ,69,53.5,517,478,451,995,1446
+320, Pamlico County High ,69,53.5,517,478,451,995,1446
+700, Elizabeth City-Pasquotank ,224,61.2,462,443,426,905,1331
+317, Northeastern High ,136,72,455,436,423,891,1314
+319, Pasquotank County High ,88,55,472,454,430,926,1356
+710, Pender County Schools ,344,57.8,491,479,460,970,1430
+321, Heide Trask High ,70,47.3,472,452,451,924,1375
+326, Pender High ,64,49.2,443,431,406,874,1280
+327, Pender Early College High ,38,57.6,480,490,452,970,1422
+342, Topsail High ,172,68.5,519,506,486,1025,1511
+720, Perquimans County Schools ,47,49,497,470,446,967,1413
+316, Perquimans Co High ,47,49,497,470,446,967,1413
+730, Person County Schools ,147,46.8,488,473,454,961,1415
+352, Person High ,147,46.8,488,473,454,961,1415
+73B , Roxboro Community School ,51,64.6,481,491,472,972,1444
+740, Pitt County Schools ,805,61.7,486,466,440,952,1392
+309, Ayden-Grifton High ,79,54.1,478,465,431,943,1374
+333, D H Conley High ,157,61.8,512,491,459,1003,1462
+344, Farmville Central High ,86,58.9,462,441,418,903,1321
+366, J H Rose High ,200,68.3,510,493,469,1003,1472
+374, North Pitt High ,82,46.6,440,411,391,851,1242
+388, South Central High ,201,69.8,475,455,430,930,1360
+750, Polk County Schools ,90,52.9,529,496,487,1025,1512
+317, Polk Co. Virtual Early College ,4,80, * , * , * , * , * 
+318, Polk County High ,86,52.1,529,492,487,1021,1508
+760, Randolph County Schools ,563,52.6,494,471,453,965,1418
+318, Eastern Randolph High ,72,45.3,494,467,434,961,1395
+339, Providence Grove High ,95,57.6,494,466,449,960,1409
+348, Randleman High ,58,42,480,458,439,938,1377
+354, Randolph Early College High ,50,68.5,505,503,477,1008,1485
+358, Southwestern High ,98,44.3,507,477,454,984,1438
+380, Trinity High ,90,56.6,493,467,458,960,1418
+388, Wheatmore High ,100,64.5,485,467,461,952,1413
+761, Asheboro City Schools ,170,67.5,494,479,459,973,1432
+304, Asheboro High ,170,67.5,494,479,459,973,1432
+770, Richmond County Schools ,214,38.5,446,435,419,881,1300
+348, Richmond Senior High ,182,41.9,440,428,413,868,1281
+349, Richmond Early College High ,31,51.7,485,480,452,965,1417
+780,Robeson County Public Schools ,618,40.9,441,408,398,849,1247
+325, Fairmont High ,43,27.7,441,417,398,858,1256
+342, Lumberton Senior High ,232,49.7,443,413,404,856,1260
+385, Robeson County Early College ,23,42.6,476,458,465,934,1399
+391, Red Springs High ,64,39.5,419,385,378,804,1182
+401, Saint Pauls High ,69,35.6,449,416,410,865,1275
+402, South Robeson High ,42,42,410,367,371,777,1148
+420, Purnell Swett High ,145,38.4,445,406,388,851,1239
+790, Rockingham County Schools ,444,55,472,448,437,920,1357
+314, Dalton Mcmichael High ,74,42.5,494,486,460,980,1440
+354, John M Morehead High ,126,56.3,470,433,434,903,1337
+366, Reidsville High ,117,77.5,441,407,398,848,1246
+378, Rockingham Co High ,121,58.2,492,477,463,969,1432
+379, Rockinghan County Early Colleg ,6,12.8,448,505,448,953,1401
+800, Rowan-Salisbury Schools ,702,53.8,483,466,446,949,1395
+308, Henderson Independent Hs ,,   ,   ,   ,   ,   ,   
+340, East Rowan High ,135,54.2,503,481,456,984,1440
+361, Jesse C. Carson High ,138,47.4,487,472,447,959,1406
+376, North Rowan High ,48,42.9,445,418,412,863,1275
+394, Rowan County Early College ,45,100,487,472,473,959,1432
+396, Salisbury High ,124,65.6,482,458,453,940,1393
+400, South Rowan High ,85,44.7,488,470,453,958,1411
+408, West Rowan High ,127,55.5,468,464,426,932,1358
+810, Rutherford County Schools ,319,58.7,475,465,441,940,1381
+324, Chase High ,91,54.8,470,440,418,910,1328
+340, East Rutherford High ,91,65.5,462,453,427,915,1342
+384, R S Central ,92,54.1,472,484,452,956,1408
+385, Rutherford County Early Col Hi ,38,100,533,509,505,1042,1547
+386, Rutherford Opportunity Center ,7,23.3,436,460,421,896,1317
+81A , Thomas Jefferson Class Academy ,65,100,566,579,534,1145,1679
+820, Sampson County Schools ,183,39.5,475,451,434,926,1360
+324, Sampson Early College High ,20,27,490,473,451,963,1414
+348, Hobbton High ,41,43.6,466,444,427,910,1337
+349, Lakewood High ,36,43.9,444,410,402,854,1256
+352, Midway High ,57,42.2,509,487,458,996,1454
+388, Union High ,29,37.2,450,429,424,879,1303
+821, Clinton City Schools ,88,56.8,467,454,423,921,1344
+308, Clinton High ,88,56.8,467,454,423,921,1344
+830, Scotland County Schools ,240,59,434,410,398,844,1242
+316, East Laurinburg Alternative ,2,14.3, * , * , * , * , * 
+343, Scotland High ,1,0.3, * , * , * , * , * 
+348, Scotland Early College High ,30,55.6,451,447,435,898,1333
+840, Stanly County School ,337,54.4,493,461,440,954,1394
+302, Albemarle High ,75,70.1,451,428,404,879,1283
+332, North Stanly High ,71,49.3,490,449,436,939,1375
+356, South Stanly High ,59,52.7,498,444,419,942,1361
+361, Stanly Early College High Scho ,31,55.4,497,502,484,999,1483
+368, West Stanly High ,101,51,523,490,467,1013,1480
+84B , Gray Stone Day ,60,96.8,575,574,556,1149,1705
+850, Stokes County Schools ,265,53.1,483,472,443,955,1398
+332, N Stokes Mid/High ,47,52.2,509,495,457,1004,1461
+352, South Stokes High ,85,50.3,463,462,434,925,1359
+358, West Stokes High ,131,55,487,469,443,956,1399
+360, Stokes Co Early College High ,2, NA , * , * , * , * , * 
+860, Surry County Schools ,227,42.1,509,479,451,988,1439
+316, East Surry High ,77,61.6,496,469,437,965,1402
+336, North Surry High ,53,34.2,510,459,438,969,1407
+352, Surry Central High ,66,41.8,506,471,443,977,1420
+354, Surry Early College Hs Design ,31,30.7,548,553,526,1101,1627
+861, Elkin City Schools ,55,60.4,505,495,472,1000,1472
+308, Elkin High ,55,60.4,505,495,472,1000,1472
+862, Mount Airy City Schools ,59,57.8,548,508,489,1056,1545
+312, Mount Airy High ,59,57.8,548,508,489,1056,1545
+870, Swain County Schools ,61,45.9,490,466,447,956,1403
+314, Swain County High ,61,47.7,490,466,447,956,1403
+880, Transylvania County ,112,55.7,518,511,468,1029,1497
+308, Brevard High ,76,65.5,543,526,482,1069,1551
+328, Rosman Middle/High ,36,51.4,465,478,439,943,1382
+890, Tyrrell County Schools ,33,66,461,448,438,909,1347
+304, Columbia High ,33,66,461,448,438,909,1347
+900, Union County Public Schools,1734,70.8,529,507,493,1036,1529
+311, Cuthbertson High ,197,83.5,531,510,497,1041,1538
+316, Forest Hills High ,70,40.5,479,439,423,918,1341
+336, Monroe High ,69,42.3,430,411,396,841,1237
+342, Porter Ridge High ,199,66.6,512,493,479,1005,1484
+344, Parkwood High ,103,62.4,515,508,503,1023,1526
+348, Piedmont High ,142,67.9,521,487,461,1008,1469
+360, Sun Valley High ,179,64.2,511,479,471,990,1461
+366, Centralacademy Of Technology ,158,79.8,532,522,493,1054,1547
+367, Union County Early College Hig ,55,59.1,562,542,518,1104,1622
+377, Weddington High ,265,88.9,557,534,518,1091,1609
+393, Marvin Ridge High ,297,100,562,541,536,1103,1639
+90A , Union Academy ,,   ,   ,   ,   ,   ,   
+910, Vance County Schools ,217,53.4,443,418,419,861,1280
+364, Southern Vance High ,83,53.2,430,395,398,825,1223
+370, Northern Vance High ,92,46.2,457,431,423,888,1311
+382, Vance County Early College Hig ,41,91.1,439,439,452,878,1330
+920, Wake County Schools ,6602,74.4,543,520,502,1063,1565
+316, Apex High ,445,85.7,589,543,526,1132,1658
+318, Athens Drive High ,287,78.4,561,528,516,1089,1605
+348, Needham Broughton High ,420,82.7,549,543,517,1092,1609
+368, Cary High ,343,70.1,559,531,511,1090,1601
+412, William G Enloe High ,451,77.1,579,565,548,1144,1692
+428, Fuquay-Varina High ,279,61.6,526,499,478,1025,1503
+436, Garner High ,290,67.4,485,472,449,957,1406
+441, Green Hope High ,449,94.7,600,554,545,1154,1699
+445, Heritage High ,5,100,400,422,384,822,1206
+455, Holly Springs High ,316,76,544,526,505,1070,1575
+466, Knightdale High ,239,59.6,477,464,443,941,1384
+473, Leesville Road High ,373,76.6,576,540,525,1116,1641
+495, Middle Creek High ,299,79.3,530,505,487,1035,1522
+500, Millbrook High ,398,72.8,508,492,475,1000,1475
+526, Panther Creek High School ,465,86.3,571,541,533,1112,1645
+528, Phillips High ,7,13,369,363,380,732,1112
+552, Sanderson High ,319,74.2,532,519,497,1051,1548
+562, Southeast Raleigh High ,216,66.7,478,471,453,949,1402
+583, Wake Early College Of Health & ,50,83.3,550,553,547,1103,1650
+588, Wake Forest High ,338,69.7,511,501,478,1012,1490
+595, Wakefield High ,508,82.3,525,504,488,1029,1517
+700, East Wake Health Science ,35,42.7,442,436,429,878,1307
+701, East Wake School Of Integrated ,14,26.4,427,410,406,837,1243
+702," East Wake School Of Arts, Ed &",28,28,474,448,435,922,1357
+703, East Wake School Of Engineerin ,28,34.6,505,461,433,966,1399
+92F , Franklin Academy ,73,90.1,552,554,518,1106,1624
+92G , East Wake Academy ,53,84.1,457,465,466,922,1388
+92K , Raleigh Charter High ,141,100,630,624,604,1254,1858
+92P , Southern Wake Academ ,13,59.1,488,486,442,974,1416
+930, Warren County School ,131,73.2,417,403,397,820,1217
+352, Warren County High ,81,67.5,390,379,374,769,1143
+360, Warren Early College High ,17,77.3,488,435,442,923,1365
+700, Warren New Tech High ,33,89.2,446,445,431,891,1322
+93A , Haliwa-Saponi Tribal ,6,54.5,472,417,402,889,1291
+940, Washington County Schools ,65,55.1,407,385,385,792,1177
+308, Creswell High ,8,42.1,384,379,388,763,1151
+316, Plymouth High ,57,57.6,410,386,385,796,1181
+950, Watauga County Schoo ,223,72.6,547,534,506,1081,1587
+336, Watauga High ,223,72.6,547,534,506,1081,1587
+960, Wayne County Public ,558,49.7,481,461,439,942,1381
+324, Charles B Aycock High ,110,54.2,492,478,443,970,1413
+330, Eastern Wayne High ,101,46.1,500,474,464,974,1438
+335, Goldsboro High ,52,49.1,403,390,365,793,1158
+372, Rosewood High ,62,54.4,481,459,426,940,1366
+380, Southern Wayne High ,74,36.8,431,405,391,836,1227
+386, Spring Creek High ,44,38.6,486,456,437,942,1379
+490, Wayne Early/Middle College ,59,76.6,527,506,497,1033,1530
+700, Wayne School Of Engineering At ,56,81.2,507,504,472,1011,1483
+970, Wilkes County School ,296,54.2,510,496,468,1006,1474
+320, East Wilkes High ,51,49.5,502,495,468,997,1465
+356, North Wilkes High ,50,54.3,483,472,452,955,1407
+388, West Wilkes High ,83,52.2,514,500,471,1014,1485
+390, Wilkes Central High ,112,58.3,522,503,472,1025,1497
+393, Wilkes Early College High ,,   ,   ,   ,   ,   ,   
+980, Wilson County School ,396,50.9,490,467,444,957,1401
+318, Beddingfield High ,85,40.7,459,430,409,889,1298
+336, Fike High ,150,54.7,501,486,464,987,1451
+342, Hunt High ,159,54.3,495,467,443,962,1405
+398, Wilson Early College Academy ,2,100, * , * , * , * , * 
+990, Yadkin County School ,171,44.2,502,476,443,978,1421
+322, Forbush High ,75,41.4,494,465,432,959,1391
+326, Starmount High ,71,48.3,502,468,438,970,1408
+332, Yadkin Early College ,25,42.4,528,530,487,1058,1545
+995, Yancey County Schools ,80,53,510,508,465,1018,1483
+330, Mountain Heritage High ,80,53,510,508,465,1018,1483
