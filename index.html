@@ -15,7 +15,8 @@
     stroke: #fff;
     stroke-linejoin: round;
   }
-
+  /*.q0-9 { fill:rgb(0,0,0); }
+  .p0-9 { fill:rgb(200,107,200); }*/
   .q0-9 { fill:rgb(247,251,255); }
   .q1-9 { fill:rgb(222,235,247); }
   .q2-9 { fill:rgb(198,219,239); }
@@ -36,58 +37,105 @@
   .p7-9 { fill:rgb(247,156,28); }
   .p8-9 { fill:rgb(255,107,18); }
 
+  svg {
+    display: none;
+  }
 
   </style>
   <head>
   <!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
   <script src="http://d3js.org/queue.v1.min.js"></script>
   <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+ <!-- Optional theme -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+ <!-- Latest compiled and minified JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   </head>
   <body>
+   <h1 style="font-family:avenir;font-size:400%">
+     North Carolina Education Visualized
+   </h1>
+   <hr>
 
-  <div class="option">
-    <input name="updateButton"
-           type="button"
-           value="2006"
-           onclick="renderYear(2006)" />
-  </div>
-  <div class="option">
-    <input name="updateButton"
-           type="button"
-           value="2007"
-           onclick="renderYear(2007)" />
-  </div>
-  <div class="option">
-    <input name="updateButton"
-           type="button"
-           value="2008"
-           onclick="renderYear(2008)" />
-  </div>
-  <div class="option">
-    <input name="updateButton"
-           type="button"
-           value="2009"
-           onclick="renderYear(2009)" />
-  </div>
-  <div class="option">
-    <input name="updateButton"
-           type="button"
-           value="2010"
-           onclick="renderYear(2010)" />
-  </div>
-  <div class="option">
-    <input name="updateButton"
-           type="button"
-           value="2011"
-           onclick="renderYear(2011)" />
-  </div>
-  <div class="option">
-    <input name="updateButton"
-           type="button"
-           value="2012"
-           onclick="renderYear(2012)" />
-  </div>
+   <p style="font-family:avenir;font-size:150%">
+     We've compared
+     <strong> student achievement per pupil expenditure </strong>
+      across the school districts of North Carolina.
+   </p>
+
+
+   <svg width="960" height="100">
+     <circle cx="20" cy="25" r="10" fill="orange"></circle>
+     <text x="35" y="32.5" font-family="avenir" font-size="18px" fill="black"> The orange scale signifies the upper socio-economic portion of North Carolina's counties.
+     </text>
+     <circle cx="20" cy="55" r="10" fill="blue"></circle>
+     <text x="35" y="62.5" font-family="avenir" font-size="18px" fill="black"> The blue scale signifies the lower socio-economic portion of North Carolina's counties.
+     </text>
+   </svg>
+
+<div id="buttonHolder" style="width: 100%">
+ <div id="firstbutton" class="option">
+   <input name="updateButton"
+          type="button"
+          class="btn btn-default" aria-label="Center Align"
+          value="2006"
+          onclick="showYear(2006)" />
+ </div>
+ <div class="option">
+   <input name="updateButton"
+          type="button"
+          class="btn btn-default" aria-label="Center Align"
+          value="2007"
+
+          onclick="showYear(2007)" />
+ </div>
+ <div class="option">
+   <input name="updateButton"
+          type="button"
+          class="btn btn-default" aria-label="Center Align"
+          value="2008"
+
+          onclick="showYear(2008)" />
+ </div>
+ <div class="option">
+   <input name="updateButton"
+          type="button"
+          class="btn btn-default" aria-label="Center Align"
+          value="2009"
+
+          onclick="showYear(2009)" />
+ </div>
+ <div class="option">
+   <input name="updateButton"
+          type="button"
+          class="btn btn-default" aria-label="Center Align"
+          value="2010"
+
+          onclick="showYear(2010)" />
+ </div>
+ <div class="option">
+   <input name="updateButton"
+          type="button"
+          class="btn btn-default" aria-label="Center Align"
+          value="2011"
+
+          onclick="showYear(2011)" />
+ </div>
+ <div class="option">
+   <input name="updateButton"
+          type="button"
+          class="btn btn-default" aria-label="Center Align"
+          value="2012"
+
+          onclick="showYear(2012)" />
+ </div>
+</div>
 
 
   <script>
@@ -95,18 +143,24 @@
   var width = 960,
       height = 600;
 
-  var rateByIdUp = d3.map();
-  var rateByIdDown = d3.map();
+  var start = 2006;
+  var end = 2012;
 
-  var quantize = d3.scale.quantize()
-      .domain([-.22, .15])
-      .range(d3.range(-9,9).map(function(i) {
-        if (i < 0) {
-          i = -i;
-          var something = "q" + i + "-9";
-          return something;
-        }
+  var rateByIdUpArr = [];
+  var rateByIdDownArr = [];
+  var currentRenderYear = 2006;
+
+  var quantizeUp = d3.scale.quantize()
+      .domain([0.05, .16])
+      .range(d3.range(0,9).map(function(i) {
         var something = "p" + i + "-9";
+        return something;
+      }));
+
+  var quantizeDown = d3.scale.quantize()
+      .domain([0.06, .12])
+      .range(d3.range(0,9).map(function(i) {
+        var something = "q" + i + "-9";
         return something;
       }));
 
@@ -119,30 +173,46 @@
   var path = d3.geo.path()
       .projection(projection);
 
-  var svg = d3.select("body").append("svg")
-      .attr("width", width)
-      .attr("height", height);
-
-  var renderYear = function(year) {
-    year = year || 2006;
-    rateByIdUp = d3.map();
-    rateByIdDown = d3.map();
-    console.log(year);
+  function renderYear(year) {
+    currentRenderYear = year;
+    rateByIdUpArr.push(d3.map());
+    rateByIdUp = rateByIdUpArr[rateByIdUpArr.length - 1];
+    rateByIdDownArr.push(d3.map());
+    rateByIdDown = rateByIdDownArr[rateByIdDownArr.length - 1];
     queue()
       //.defer(d3.json, "http://bl.ocks.org/mbostock/raw/4090846/us.json")
       .defer(d3.json, "us.json")
-      .defer(d3.csv, "up" + year + ".csv", function(d) {
-        rateByIdUp.set(d.id, +d.rate); })
-      .defer(d3.csv, "down" + year + ".csv", function(d) {
-        rateByIdDown.set(d.id, +d.rate); })
+      .defer(d3.csv, year + "-poor-bydistrict-fips.csv", function(d) {
+        var id = "37";
+        if (d.id.length == 2) {
+          id += "0";
+        } else if (d.id.length == 1) {
+          id += "00";
+        }
+        rateByIdUp.set(id+d.id, +d.rate);
+      })
+      .defer(d3.csv, year + "-rich-bydistrict-fips.csv", function(d) {
+        var id = "37";
+        if (d.id.length == 2) {
+          id += "0";
+        } else if (d.id.length == 1) {
+          id += "00";
+        }
+        rateByIdDown.set(id+d.id, +d.rate); })
       .await(ready);
   }
 
-  renderYear();
-
   function ready(error, us) {
-    console.log(rateByIdUp);
-    console.log(rateByIdDown);
+    // console.log(us);
+    // console.log(currentRenderYear - 2006);
+    rateByIdUp = rateByIdUpArr[currentRenderYear - start];
+    rateByIdDown = rateByIdDownArr[currentRenderYear - start];
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("id", currentRenderYear);
+
     svg.append("g")
         .attr("class", "counties")
       .selectAll("path")
@@ -150,13 +220,10 @@
       .enter().append("path")
         .attr("class", function(d) {
           if (d.id - 37000 > 0 && d.id - 37000 < 1000) {
-            console.log(d.id);
             if (rateByIdUp.has(d.id)) {
-              // console.log(quantize(-rateByIdUp.get(d.id)));
-              return quantize(-rateByIdUp.get(d.id));
+              return quantizeUp(rateByIdUp.get(d.id));
             }
-            // console.log(quantize(rateByIdDown.get(d.id)));
-            return quantize(rateByIdDown.get(d.id));
+            return quantizeDown(rateByIdDown.get(d.id));
           }
         })
         .attr("d", path);
@@ -166,11 +233,30 @@
         .attr("class", "states")
         .attr("d", path);
 
+    renderNext();
+  }
+
+  var showYear = function(year) {
+    $("svg").hide();
+    $("#"+year).show();
   }
 
   d3.select(self.frameElement).style("height", height + "px");
 
+  var year = start;
+
+  function renderNext() {
+    if (year > end) { return; }
+    renderYear(year);
+    year++
+  }
+
+  renderNext();
+
   </script>
 
 </body>
+<style>
+
+</style>
 </html>
