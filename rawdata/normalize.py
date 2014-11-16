@@ -48,8 +48,8 @@ def parseIntoThrees(data):
 
 def doOneFile(filename, year):
     f = open(filename, 'r')
-    outPoor = open(str(year) + '-poor-bydistrict', 'w')
-    outRich = open(str(year) + '-rich-bydistrict', 'w')
+    outPoor = open(str(year) + '-poor-bydistrict.json', 'w')
+    outRich = open(str(year) + '-rich-bydistrict.json', 'w')
     yearly = json.load(f)
     metrics = parseIntoThrees(yearly)
     json.dump({'Data': metrics['Rich'], 'Range': metrics['Range']}, outRich)
