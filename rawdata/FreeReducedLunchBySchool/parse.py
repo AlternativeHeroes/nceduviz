@@ -5,7 +5,6 @@ import json
 
 files = ['2006-07freereduced.txt', '2007-08freereduced.txt', '2008-09freereduced.txt', '2009-10freereduced.txt', '2010-11freereduced.txt', '2011-12freereduced.txt', '2012-13freereduced.txt']
 
-
 def betterNumParse(num):
     return int(num.strip().replace(',', ''))
 
@@ -33,6 +32,7 @@ def fileToDict(filename):
     #
     data = []
     for row in reader:
+        row = row[0:9]
         if '' in row:
             continue
         data += [row]
@@ -40,7 +40,7 @@ def fileToDict(filename):
     points = {}
     for row in data:
         try:
-            points[int(row[0] + row[2])] = parseRow(row)
+            points[int(row[0].strip() + row[2].strip())] = parseRow(row)
         except ValueError:
             pass
     #
