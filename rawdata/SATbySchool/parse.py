@@ -7,13 +7,13 @@ import json
 
 def parseRow(row):
     datum = {}
-    datum['NumTested'] =   int(row[2])
-    datum['PerTested'] = float(row[3]) / 100.0
-    datum['Math']      =   int(row[4])
-    datum['CR']        =   int(row[5])
-    datum['Writing']   =   int(row[6])
-    datum['M+CR']      =   int(row[7])
-    datum['M+CR+W']    =   int(row[8])
+    datum['NumTested'] =   int(row[3])
+    datum['PerTested'] = float(row[4]) / 100.0
+    datum['Math']      =   int(row[5])
+    datum['CR']        =   int(row[6])
+    datum['Writing']   =   int(row[7])
+    datum['M+CR']      =   int(row[8])
+    datum['M+CR+W']    =   int(row[9])
     return datum;
 
 def fileToDict(filename):
@@ -21,9 +21,12 @@ def fileToDict(filename):
     reader = csv.reader(f)
     #
     points = {}
+    district = ""
     for row in reader:
+        if (row[1] == row[0]):
+            district = row[0]
         try:
-            points[int(row[0])] = parseRow(row)
+            points[int(district + row[1])] = parseRow(row)
         except (ValueError, IndexError) as e:
             pass
     f.close()
