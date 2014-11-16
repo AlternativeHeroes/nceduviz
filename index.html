@@ -2,6 +2,10 @@
   <meta charset="utf-8">
   <style>
 
+  .option {
+    display: inline-block;
+  }
+
   .counties {
     fill: #fff;
   }
@@ -22,6 +26,17 @@
   .q7-9 { fill:rgb(8,81,156); }
   .q8-9 { fill:rgb(8,48,107); }
 
+  .p0-9 { fill:rgb(107,255,247); }
+  .p1-9 { fill:rgb(156,247,222); }
+  .p2-9 { fill:rgb(181,239,198); }
+  .p3-9 { fill:rgb(198,225,158); }
+  .p4-9 { fill:rgb(214,214,255); }
+  .p5-9 { fill:rgb(225,198,66); }
+  .p6-9 { fill:rgb(239,181,33); }
+  .p7-9 { fill:rgb(247,156,28); }
+  .p8-9 { fill:rgb(255,107,18); }
+
+
   </style>
   <head>
   <!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
@@ -30,24 +45,76 @@
   <script src="http://d3js.org/topojson.v1.min.js"></script>
   </head>
   <body>
+
+  <div class="option">
+    <input name="updateButton"
+           type="button"
+           value="2006"
+           onclick="updateData(2006)" />
+  </div>
+  <div class="option">
+    <input name="updateButton"
+           type="button"
+           value="2007"
+           onclick="updateData(2007)" />
+  </div>
+  <div class="option">
+    <input name="updateButton"
+           type="button"
+           value="2008"
+           onclick="updateData(2008)" />
+  </div>
+  <div class="option">
+    <input name="updateButton"
+           type="button"
+           value="2009"
+           onclick="updateData(2009)" />
+  </div>
+  <div class="option">
+    <input name="updateButton"
+           type="button"
+           value="2010"
+           onclick="updateData(2010)" />
+  </div>
+  <div class="option">
+    <input name="updateButton"
+           type="button"
+           value="2011"
+           onclick="updateData(2011)" />
+  </div>
+  <div class="option">
+    <input name="updateButton"
+           type="button"
+           value="2012"
+           onclick="updateData(2012)" />
+  </div>
+
+
   <script>
 
   var width = 960,
       height = 600;
 
-  var rateById = d3.map();
+  var rateByIdUp = d3.map();
+  var rateByIdDown = d3.map();
 
   var quantize = d3.scale.quantize()
-      .domain([0, .15])
-      .range(d3.range(9).map(function(i) {
-        var something = "q" + i + "-9";
-        console.log(something);
-        return something; }));
+      .domain([-.22, .15])
+      .range(d3.range(-9,9).map(function(i) {
+        if (i < 0) {
+          i = -i;
+          var something = "q" + i + "-9";
+          return something;
+        }
+        var something = "p" + i + "-9";
+        return something;
+      }));
+
 
   var projection = d3.geo.albersUsa()
-      .scale(3600)
+      .scale(6600)
       // .translate([width / 4, height / 4]);
-      .translate([-width / 4.8, height / 3]);
+      .translate([-width, height / 6]);
 
   var path = d3.geo.path()
       .projection(projection);
@@ -55,31 +122,47 @@
   var svg = d3.select("body").append("svg")
       .attr("width", width)
       .attr("height", height);
-  console.log("yoga111");
-  queue()
+
+  var renderYear = function(year) {
+    year = year || 2006;
+    console.log(year);
+    queue()
       //.defer(d3.json, "http://bl.ocks.org/mbostock/raw/4090846/us.json")
       .defer(d3.json, "us.json")
-      .defer(d3.csv, "unemploymentNC.csv", function(d) {
-        console.log(d);
-        rateById.set(d.id, +d.rate); })
+      .defer(d3.csv, "up.csv", function(d) {
+        rateByIdUp.set(d.id, +d.rate); })
+      .defer(d3.csv, "down.csv", function(d) {
+        rateByIdDown.set(d.id, +d.rate); })
       .await(ready);
+  }
+
+  renderYear();
 
   function ready(error, us) {
+    console.log(rateByIdUp);
+    console.log(rateByIdDown);
     svg.append("g")
         .attr("class", "counties")
       .selectAll("path")
         .data(topojson.feature(us, us.objects.counties).features)
       .enter().append("path")
         .attr("class", function(d) {
-          console.log("ayayayaya");
-          return quantize(rateById.get(d.id)); })
+          if (d.id - 37000 > 0 && d.id - 37000 < 1000) {
+            console.log(d.id);
+            if (rateByIdUp.has(d.id)) {
+              // console.log(quantize(-rateByIdUp.get(d.id)));
+              return quantize(-rateByIdUp.get(d.id));
+            }
+            // console.log(quantize(rateByIdDown.get(d.id)));
+            return quantize(rateByIdDown.get(d.id));
+          }
+        })
         .attr("d", path);
 
     svg.append("path")
         .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
         .attr("class", "states")
         .attr("d", path);
-    console.log("yoga112");
 
   }
 
