@@ -5,7 +5,6 @@ import json
 
 files = ['2006-07freereduced.txt', '2007-08freereduced.txt', '2008-09freereduced.txt', '2009-10freereduced.txt', '2010-11freereduced.txt', '2011-12freereduced.txt', '2012-13freereduced.txt']
 
-
 def betterNumParse(num):
     return int(num.strip().replace(',', ''))
 
